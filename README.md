@@ -3,7 +3,7 @@
 A premium, modern, and highly interactive landing page built to practice advanced UI/UX layout concepts and smooth web animations. 
 
 ## 🚀 Live Demo
-- **Live Link:** [View Live Site](https://your-username.github.io/blunex-digital-studio)
+- **Live Link:** [View Live Site](https://blunex-animated-landing.vercel.app/)
 
 ## ✨ Features
 - **Premium GSAP Animations:** Fully synchronized entrance timeline that smoothly animates text, imagery, and structural frames on load.
