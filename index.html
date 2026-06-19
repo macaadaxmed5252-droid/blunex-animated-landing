@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blunex Digital Studio</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Corner Masks to create asymmetrical cut-outs -->
+        <img src="assets/clip-shape.png" alt="" class="clip-shape1">
+        <img src="assets/clip-shape.png" alt="" class="clip-shape2">
+
+        <!-- Glowing Ellipse Ambient Accent -->
+        <img src="assets/ellipse.png" class="gradient-shape" alt="">
+
+        <!-- Content Overlay -->
+        <div class="inner-box">
+            <div class="navbar">
+                <div class="logo-wrapper">
+                    <span class="logo-main">Mu'ad</span>
+                    <span class="logo-sub">DIGITAL DEVELOPER</span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#" class="nav-link active">Home</a></li>
+                        <li><a href="#" class="nav-link">Services</a></li>
+                        <li><a href="#" class="nav-link">Tech</a></li>
+                        <li><a href="#" class="nav-link">About</a></li>
+                        <li><a href="#" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="hero-wrapper">
+                <div class="content-wrapper">
+                    <div class="content">
+                        <h1>CRAFTING DIGITAL MAGIC</h1>
+                        <p class="tagline">Bringing ideas to life with stunning design &amp; code.</p>
+                    </div>
+                    <div class="social-wrapper">
+                        <h2>Follow us</h2>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/kingMaalid" target="_blank" rel="noopener noreferrer"
+                                aria-label="Facebook">
+                                <img src="assets/fb.png" alt="Facebook">
+                            </a>
+                            <a href="https://www.instagram.com/king_maalid" target="_blank" rel="noopener noreferrer"
+                                aria-label="Instagram">
+                                <img src="assets/insta.png" alt="Instagram">
+                            </a>
+                            <a href="https://x.com/king_maalid" target="_blank" rel="noopener noreferrer"
+                                aria-label="X/Twitter">
+                                <img src="assets/twitter.png" alt="X/Twitter">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">Buy Our Services</a>
+        </div>
+
+        <!-- Loopable 3D Cybernetic Face & Stones Background Video -->
+        <video width="100%" height="100%" autoplay loop muted playsinline class="bg-video">
+            <source src="assets/ai-face.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- GSAP Core Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
